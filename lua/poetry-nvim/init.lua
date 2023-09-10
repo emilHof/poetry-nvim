@@ -1,4 +1,4 @@
-require("poetry_nvim")
+require("poetry-nvim")
 pcall(vim.cmd, [[packadd packer.nvim]])
 
 local packer = require("packer")
